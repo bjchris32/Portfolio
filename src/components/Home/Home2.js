@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/avatar.svg";
+import myImg from "../../Assets/profile_avatar.jpg";
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
@@ -16,30 +16,29 @@ function Home2() {
         <Row>
           <Col md={8} className="home-about-description">
             <h1 style={{ fontSize: "2.6em" }}>
-              LET ME <span className="purple"> INTRODUCE </span> MYSELF
+              LET ME <span className="purple"> MARKET </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I fell in love with programming and I have at least learnt
-              something, I think… 🤷‍♂️
+              I am passionate about solving the problems in our daily lives, especially with programming.
               <br />
-              <br />I am fluent in classics like
+              <br />I am fluent in programming languages like
               <i>
-                <b className="purple"> C++, Javascript and Go. </b>
+                <b className="purple"> Ruby, Javascript and Java. </b>
               </i>
               <br />
               <br />
-              My field of Interest's are building new &nbsp;
+              I am interested in &nbsp;
               <i>
-                <b className="purple">Web Technologies and Products </b> and
+                <b className="purple">Web Programming, SaaS product </b> and
                 also in areas related to{" "}
                 <b className="purple">
-                  Blockchain.
+                  Machine Learning in Signal Processing.
                 </b>
               </i>
               <br />
               <br />
-              Whenever possible, I also apply my passion for developing products
-              with <b className="purple">Node.js</b> and
+              I am passionate in developing products
+              with <b className="purple">Ruby on Rails</b> and
               <i>
                 <b className="purple">
                   {" "}
@@ -48,8 +47,11 @@ function Home2() {
               </i>
               &nbsp; like
               <i>
-                <b className="purple"> React.js and Next.js</b>
+                <b className="purple"> NodeJS and React.js</b>
               </i>
+              <br />
+              <br />
+              In my free time, I go swimming, hiking and shoot some wonderful photos.
             </p>
           </Col>
           <Col md={4} className="myAvtar">
@@ -67,7 +69,7 @@ function Home2() {
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
-                  href="https://github.com/soumyajit4419"
+                  href="https://github.com/bjchris32/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -75,7 +77,7 @@ function Home2() {
                   <AiFillGithub />
                 </a>
               </li>
-              <li className="social-icons">
+              {/* <li className="social-icons">
                 <a
                   href="https://twitter.com/Soumyajit4419"
                   target="_blank"
@@ -84,10 +86,10 @@ function Home2() {
                 >
                   <AiOutlineTwitter />
                 </a>
-              </li>
+              </li> */}
               <li className="social-icons">
                 <a
-                  href="https://www.linkedin.com/in/soumyajit4419/"
+                  href="https://www.linkedin.com/in/bao-jhih/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -95,7 +97,7 @@ function Home2() {
                   <FaLinkedinIn />
                 </a>
               </li>
-              <li className="social-icons">
+              {/* <li className="social-icons">
                 <a
                   href="https://www.instagram.com/soumyajit4419"
                   target="_blank"
@@ -104,7 +106,7 @@ function Home2() {
                 >
                   <AiFillInstagram />
                 </a>
-              </li>
+              </li> */}
             </ul>
           </Col>
         </Row>
