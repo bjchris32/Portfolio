@@ -19,7 +19,7 @@ function Home2() {
               LET ME <span className="purple"> MARKET </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I am passionate about solving the problems in our daily lives, especially with programming.
+              I am always a learner in solving the problems of our daily lives, especially with programming.
               <br />
               <br />I am fluent in programming languages like
               <i>
