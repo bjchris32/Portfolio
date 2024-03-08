@@ -8,11 +8,13 @@ services:
     volumes:
       - ./nginx/:/etc/nginx/conf.d/:ro
       - ./certbot/www:/var/www/certbot/:ro
+      - ./certbot/conf/:/etc/nginx/ssl/:ro
 
   certbot:
     image: certbot/certbot
     volumes:
       - ./certbot/www/:/var/www/certbot/:rw
+      - ./certbot/conf/:/etc/letsencrypt/:rw
     depends_on:
       - react-web-service
     command: certonly --webroot --webroot-path=/var/www/html --email bjchris32@gmail.com --agree-tos --no-eff-email --staging -d chrisbj4.com -d www.chrisbj4.com
