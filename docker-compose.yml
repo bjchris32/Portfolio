@@ -1,6 +1,18 @@
 version: '3'
 services:
-  web:
+  react-web-service:
     image: ${DOCKERHUB_USERNAME}/test-app:latest
     ports:
-      - '80:80'
+      - 80:80
+      - 443:443
+    volumes:
+      - ./nginx/conf/:/etc/nginx/conf.d/:ro
+      - ./certbot/www:/var/www/certbot/:ro
+
+  certbot:
+    image: certbot/certbot
+    volumes:
+      - ./certbot/www/:/var/www/certbot/:rw
+    depends_on:
+      - react-web-service
+    command: certonly --webroot --webroot-path=/var/www/html --email bjchris32@gmail.com --agree-tos --no-eff-email --staging -d chrisbj4.com -d www.chrisbj4.com
