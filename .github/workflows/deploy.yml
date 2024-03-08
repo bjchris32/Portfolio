@@ -58,5 +58,5 @@ jobs:
           password: ${{ secrets.DROPLET_PASSWORD }}
           port: 22
           script: |
-            docker-compose down || true
-            DOCKERHUB_USERNAME=${{ secrets.DOCKERHUB_USERNAME }} docker-compose up
+            docker compose down || true
+            DOCKERHUB_USERNAME=${{ secrets.DOCKERHUB_USERNAME }} docker compose up -d
