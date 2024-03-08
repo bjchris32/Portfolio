@@ -48,7 +48,7 @@ jobs:
           username: root
           password: ${{ secrets.DROPLET_PASSWORD }}
           source: docker-compose.yml
-          target: /root/docker-compose.yml
+          target: /root
 
       - name: SSH to Droplet and Update Container
         uses: appleboy/ssh-action@master
