@@ -17,4 +17,3 @@ services:
       - ./certbot/conf/:/etc/letsencrypt/:rw
     depends_on:
       - react-web-service
-    command: certonly --webroot --webroot-path=/var/www/html --email bjchris32@gmail.com --agree-tos --no-eff-email --staging -d chrisbj4.com -d www.chrisbj4.com
