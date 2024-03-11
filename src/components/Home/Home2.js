@@ -23,7 +23,7 @@ function Home2() {
               <br />
               <br />I am fluent in programming languages like
               <i>
-                <b className="purple"> Ruby, Javascript and Java. </b>
+                <b className="purple"> Ruby, Javascript and Python. </b>
               </i>
               <br />
               <br />
@@ -38,11 +38,11 @@ function Home2() {
               <br />
               <br />
               I am passionate in developing products
-              with <b className="purple">Ruby on Rails</b> and
+              with <b className="purple">Ruby on Rails, Docker</b> and
               <i>
                 <b className="purple">
                   {" "}
-                  Modern Javascript Library and Frameworks
+                  Javascript Library and Frameworks
                 </b>
               </i>
               &nbsp; like
