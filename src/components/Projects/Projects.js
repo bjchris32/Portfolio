@@ -5,6 +5,7 @@ import Particle from "../Particle";
 
 import golangTest from "../../Assets/Projects/golang_with_test.png";
 import railsTurboStream from "../../Assets/Projects/railsTurboStream.png";
+import habicise from "../../Assets/Projects/habicise.png";
 
 function Projects() {
   return (
@@ -21,12 +22,12 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={golangTest}
+              imgPath={habicise}
               isBlog={false}
-              title="Golang learning"
-              description="Learning golang with tests"
-              ghLink="https://github.com/bjchris32/learn-go-with-tests"
-              demoLink="https://quii.gitbook.io/learn-go-with-tests"              
+              title="Habicise(MERN project)"
+              description="A MERN project to incentivize habit cultivation. It is deployed on netlify(React) and render(Express/NodeJS) with Mongo Atlas."
+              ghLink="https://github.com/bjchris32/habicise"
+              demoLink="https://habicise-app.chrisbj4.com/"
             />
           </Col>
 
@@ -38,6 +39,17 @@ function Projects() {
               description="Implemented less Javascript solution for single page application with Rails7 built-in turbo/turbostream and sidekiq background processing"
               ghLink="https://github.com/bjchris32/sms-notification"
               demoLink="https://youtu.be/HlPmPAbrJLM"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={golangTest}
+              isBlog={false}
+              title="Golang learning"
+              description="Learning golang with tests"
+              ghLink="https://github.com/bjchris32/learn-go-with-tests"
+              demoLink="https://quii.gitbook.io/learn-go-with-tests"
             />
           </Col>
         </Row>
