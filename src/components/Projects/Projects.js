@@ -24,8 +24,8 @@ function Projects() {
             <ProjectCard
               imgPath={habicise}
               isBlog={false}
-              title="Habicise(MERN project)"
-              description="A MERN project to incentivize habit cultivation. It is deployed on netlify(React) and render(Express/NodeJS) with Mongo Atlas."
+              title="Habicise"
+              description="A MERN stack project focused on encouraging habit formation. The frontend, built with React, is deployed on Netlify, while the backend, powered by Express and Node.js, runs on Render, with MongoDB Atlas handling data storage. Users can create habits, track their progress by marking them as completed, and view their achievements in a visual format inspired by GitHub's contribution history, offering a sense of accomplishment over time."
               ghLink="https://github.com/bjchris32/habicise"
               demoLink="https://habicise-app.chrisbj4.com/"
             />
